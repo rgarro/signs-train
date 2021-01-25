@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  login_id: 1
+  started_at: 2021-01-24 20:23:29
+  willfinish_at: 2021-01-24 20:23:29
+
+two:
+  login_id: 1
+  started_at: 2021-01-24 20:23:29
+  willfinish_at: 2021-01-24 20:23:29
