@@ -13,6 +13,10 @@ class LoginTest < ActiveSupport::TestCase
       assert(authObj.class.method_defined?(:do_login), "knock knock ...")
   end
 
+  test "assert it has create_session_timeout_value method" do
+      #wiil be back at 4:20 ...
+  end
+
   test "assert it has create_login_session method" do
       #wiil be back at 4:20 ...
   end
