@@ -14,15 +14,17 @@ class LoginTest < ActiveSupport::TestCase
   end
 
   test "assert it has create_session_timeout_value method" do
-      #wiil be back at 4:20 ...
+    authObj= Login.new
+    assert(authObj.class.method_defined?(:create_session_timeout_value), "knock knock ...")
   end
 
   test "assert it has create_login_session method" do
-      #wiil be back at 4:20 ...
+    authObj= Login.new
+    assert(authObj.class.method_defined?(:create_login_session), "knock knock ...")
   end
 
    test "the truth" do
-     assert true
+     assert true #i found an indica joint on barrio scalante sidewalk while thinking ...
    end
 
 end
