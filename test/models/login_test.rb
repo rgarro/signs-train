@@ -23,6 +23,11 @@ class LoginTest < ActiveSupport::TestCase
     assert(authObj.class.method_defined?(:create_login_session), "knock knock ...")
   end
 
+  test "assert it has session_hash property " do
+    authObj= Login.new
+    assert(authObj.class.method_defined?(:create_login_session), "knock knock ...")
+  end
+
    test "the truth" do
      assert true #i found an indica joint on barrio scalante sidewalk while thinking ...
    end
