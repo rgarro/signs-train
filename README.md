@@ -1,2 +1,3 @@
 # signs-train
-will be a rest texture server for a unity component
+will be a rest api texture server for a unity component
+to render live on webGl
